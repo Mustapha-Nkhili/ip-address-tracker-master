@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --very-dark-grey: hsl(0, 0%, 17%);
+    --dark-grey: hsl(0, 0%, 59%);
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    position: relative;
+    background: var(--dark-grey) url("../images/pattern-bg-mobile.png") no-repeat center;
+    background-size: cover;
+    padding: 1.2em;
+    z-index: 2;
+}
+
+header h1 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 0;
+    color: white;
+}
+
+header .input-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    margin-top: 25px;
+}
+
+header .input-field input,
+header .input-field button {
+    padding: 0.8em;
+    border-radius: 0.8em 0 0 0.8em;
+    border: none;
+    outline: none;
+}
+header .input-field input {
+    width: 90%;
+    background-color: white;
+    color: var(--very-dark-grey);
+}
+header .input-field button {
+    width: 45px;
+    border-radius: 0 0.8em 0.8em 0;
+    background-color: black;
+    cursor: pointer;
+}
+header button img {
+    width: 9px;
+}
+header #error {
+    position: absolute;
+    font-size: 0.8rem;
+    color: rgb(229 208 208 / 77%);
+    bottom: -21px;
+}
+
+main {
+    position: relative;
+    top: 10%;
+    background-color: white;
+    width: 100%;
+    padding: 1.1rem;
+    text-align: center;
+    border-radius: 0.8em;
+}
+main span {
+    display: block;
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: var(--dark-grey);
+    margin-bottom: 6px;
+    text-transform: uppercase;
+}
+main .box:not(:first-child) span {
+    margin-top: 19px;
+}
+main p {
+    color: var(--very-dark-grey);
+    font-weight: 500;
+}
+
+#map {
+    height: 400px;
+    z-index: 1;
+}
+
+@media screen and (min-width: 600px) {
+    header {
+        background-image: url("../images/pattern-bg-desktop.png");
+        height: 190px;
+    }
+    header .input-field {
+        width: 400px;
+    }
+    main {
+        display: flex;
+        top: 18%;
+        gap: 20px;
+        width: fit-content;
+        padding: 2em 1em;
+        text-align: left;
+    }
+    main .box {
+        padding: 0 1.2em;
+    }
+    main .box:not(:first-child) {
+        border-left: 1px solid var(--dark-grey);
+    }
+
+    main .box:not(:first-child) span {
+        margin-top: 0;
+    }
+    main p {
+        font-size: 1.1rem;
+    }
+    #map {
+        height: 466px;
+    }
+}
