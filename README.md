@@ -2,7 +2,7 @@
 
 This is a solution to the [IP address tracker challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0). 
 
-Welcome 👋
+# Welcome 👋
 
 ## Table of contents
 
@@ -24,8 +24,8 @@ Welcome 👋
 
 ### Links
 
-- Solution URL: [i will add it soon]()
-- Live Site URL: [i will add it soon]()
+- Solution URL: [click here](https://www.frontendmentor.io/solutions/responsive-ip-address-tracker-built-with-html-css-js-leaflet-ipinfo-TOXNzzAXJk)
+- Live Site URL: [ip address tracker demo](https://mustapha-ip-address-tracker.netlify.app/)
 
 ## My process
 
@@ -39,6 +39,8 @@ Welcome 👋
 
 
 ### Continued development
+
+
 In future projects, there are several areas I want to continue focusing on and improving:
 
 1. **JavaScript Interactivity:** I would like to deepen my knowledge of JavaScript to create more interactive and dynamic components. This includes exploring frameworks like React to build robust and efficient user interfaces.
@@ -57,7 +59,7 @@ By focusing on these areas, I aim to continually improve my skills and deliver b
 
 ## Author
 
--linkedin - [Mustapha Nkhili](https://www.linkedin.com/in/mustapha-nkhili-35280a280/)
+- linkedin - [Mustapha Nkhili](https://www.linkedin.com/in/mustapha-nkhili-35280a280/)
 - Frontend Mentor - [@Mustapha-Nkhili](https://www.frontendmentor.io/profile/Mustapha-Nkhili)
 - Twitter - [@Mustapha_nkhili](https://twitter.com/Mustapha_nkhili)
 
