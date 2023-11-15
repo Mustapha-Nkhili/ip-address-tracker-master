@@ -1,4 +1,5 @@
 const map = L.map("map").setView([37.40599, -122.078514], 13);
+let center = [37.40599, -122.078514];
 
 const ipAdressInput = document.querySelector("#IPAddressInput");
 const submitBtn = document.querySelector(".input-field button");
@@ -9,11 +10,11 @@ const ISPContainer = document.querySelector(".ISP p");
 const errorContainer = document.querySelector("#error");
 
 const myIcon = L.icon({
-    iconUrl: "../images/icon-location.svg",
-    iconSize: [38, 50],
-    iconAnchor: [22, 54],
-    popupAnchor: [-3, -36],
-  });
+  iconUrl: "../images/icon-location.svg",
+  iconSize: [38, 50],
+  iconAnchor: [32, 67],
+  popupAnchor: [-3, -36],
+});
 
 L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
   maxZoom: 19,
@@ -21,7 +22,7 @@ L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
   boxZoom: true,
   doubleClickZoom: true,
 }).addTo(map);
-L.marker([37.40599, -122.078514], { icon: myIcon }).addTo(map);
+L.marker(center, { icon: myIcon }).addTo(map);
 
 submitBtn.addEventListener("click", fetchIPDataAndUpdateMap);
 
@@ -33,22 +34,21 @@ function errorStyles() {
 function fetchIPDataAndUpdateMap() {
   const ipAddressValue = ipAdressInput.value;
   if (ipAddressValue.trim() !== "") {
-    fetch(
-      `https://geo.ipify.org/api/v1?apiKey=${key}&ipAddress=${ipAddressValue.trim()}`
-    )
+    fetch(`https://ipinfo.io/${ipAddressValue.trim()}?token=${token}`)
       .then((res) => res.json())
       .then((res) => {
-        const { lat, lng } = res.location;
-        const center = [lat, lng];
+        center = res.loc.split(",");
+        let ISP = res.org.split(" ");
+        ISP.shift();
 
         // Update the Leaflet map center
         map.setView(center, 13);
         L.marker(center, { icon: myIcon }).addTo(map);
 
         ipAddressContainer.innerHTML = res.ip;
-        locationContainer.innerHTML = `${res.location.region}, ${res.location.country}`;
-        timezoneConatainer.innerHTML = `UTC ${res.location.timezone}`;
-        ISPContainer.innerHTML = res.isp;
+        locationContainer.innerHTML = `${res.city}, ${res.country} ${res.postal}`;
+        timezoneConatainer.innerHTML = `${res.timezone}`;
+        ISPContainer.innerHTML = ISP.join(" ");
         errorContainer.innerHTML = "";
         ipAdressInput.style.cssText = "border: none";
         submitBtn.style.cssText = "border: none";

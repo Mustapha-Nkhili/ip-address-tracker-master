@@ -1,33 +1,31 @@
 # Frontend Mentor - IP address tracker solution
 
-This is a solution to the [IP address tracker challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [IP address tracker challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0). 
+
+Welcome 👋
 
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 
 ## Overview
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Screenshot of the project](https://github.com/Mustapha-Nkhili/ip-address-tracker-master/assets/127800851/7d9a32e1-a428-48a0-a549-e4c8fed566ae)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [i will add it soon]()
+- Live Site URL: [i will add it soon]()
 
 ## My process
 
@@ -38,59 +36,29 @@ This is a solution to the [IP address tracker challenge on Frontend Mentor](http
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
-### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
+In future projects, there are several areas I want to continue focusing on and improving:
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+1. **JavaScript Interactivity:** I would like to deepen my knowledge of JavaScript to create more interactive and dynamic components. This includes exploring frameworks like React to build robust and efficient user interfaces.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+1. **Accessibility:** I want to enhance my understanding of accessibility principles and techniques to ensure that my projects are usable by a wide range of users, including those with disabilities. I will strive to implement proper semantic HTML, ARIA attributes, and consider keyboard navigation and screen reader compatibility.
 
-### Useful resources
+1. **Performance Optimization:** I aim to further optimize the performance of my projects by implementing best practices such as lazy loading images, minifying and compressing assets, and utilizing caching strategies. I want to explore tools like Webpack or Gulp to automate these optimization processes.
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+1. **Responsive Design Patterns:** While I have gained experience in responsive design, I want to explore more advanced techniques and design patterns. This includes mastering CSS Grid and Flexbox, as well as learning about newer layout approaches like CSS Grid Level 2 (subgrid) and CSS Container Queries.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+1. **Testing and Debugging:** I plan to enhance my skills in testing and debugging to ensure the reliability and stability of my projects. This involves learning testing frameworks like Jest or Cypress and using browser developer tools effectively for debugging purposes.
+
+1. **Design Principles:** I believe that improving my understanding of design principles will enhance my ability to create visually appealing and user-friendly interfaces. I will study color theory, typography, and layout principles to develop a better eye for design.
+
+By focusing on these areas, I aim to continually improve my skills and deliver better quality projects in the future. Remember to remove this instructional note and replace it with your own plans for continued development.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+-linkedin - [Mustapha Nkhili](https://www.linkedin.com/in/mustapha-nkhili-35280a280/)
+- Frontend Mentor - [@Mustapha-Nkhili](https://www.frontendmentor.io/profile/Mustapha-Nkhili)
+- Twitter - [@Mustapha_nkhili](https://twitter.com/Mustapha_nkhili)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**

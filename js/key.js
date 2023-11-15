@@ -1,1 +1,1 @@
-const key = "at_2DxElWPBqGJbaj0LANWDXQPGzYebo"
+const token = "c99373804e2c69"
